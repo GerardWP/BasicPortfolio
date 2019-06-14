@@ -92,4 +92,34 @@ footer {
     border-top: 7px solid #4aaaa5;
 }
 
+textarea {
+    width: 100%;
+    max-width: 960px;
+    height: 200px;
+    font-size: 1em;
+    padding: 10px;
+    color: #777;
+    border: 1px solid #ccc;
+}
+
+.input-panel {
+width: 100%;
+padding: 10px;
+font-size: 1em;
+}
+
+label {
+    display: block;
+    color: #777;
+    margin: 15px 0px 3px;
+}
+
+#submit-btn {
+    color: #fff;
+    padding: 10px 20px;
+    background: #4aaaa5;
+    border: none;
+    font-size: 1em;
+    margin-top: 15px;
+}
 
