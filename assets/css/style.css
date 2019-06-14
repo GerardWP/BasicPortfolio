@@ -74,7 +74,7 @@ header {
     border: 1px solid #ccc;
 }
 
-.body-content img {
+.body-content #profile-pic {
     max-width: 200px;
     height: auto;
     float: left;
@@ -123,3 +123,30 @@ label {
     margin-top: 15px;
 }
 
+
+.portfolio-img * {
+    display: inline-block;
+    position: relative;
+}
+
+.portfolio-img > :first-child {
+    margin-right: 20px;
+}
+
+.portfolio-img div img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.portfolio-img div h4 {
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: #4aaaa5;
+color: #fff;
+padding: 18px;
+text-align: center;
+width: 100%;
+}
