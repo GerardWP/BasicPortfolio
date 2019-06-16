@@ -11,7 +11,9 @@ body {
     background: url("../images/houndstooth-pattern.png") #ccc;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -21,10 +23,10 @@ p {
 }
 
 .header-content h1 {
-color: #fff;
-background-color: #4aaaa5;
-padding: 25px 30px;
-margin: 0;
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: 30px 45px;
+    margin: 0;
 }
 
 .body-content h2 {
@@ -51,7 +53,7 @@ header {
 
 
 .header-content a {
-    text-decoration: none; 
+    text-decoration: none;
     margin: 0px 20px;
     transition-duration: 175ms;
     color: #777;
@@ -61,7 +63,7 @@ header {
     color: #4aaaa5;
 }
 
-.header-content div > :last-child {
+.header-content div> :last-child {
     margin: 0px 0px 0px 20px;
 }
 
@@ -103,9 +105,9 @@ textarea {
 }
 
 .input-panel {
-width: 100%;
-padding: 10px;
-font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
 }
 
 label {
@@ -129,24 +131,24 @@ label {
     position: relative;
 }
 
-.portfolio-img > :first-child {
-    margin-right: 20px;
-}
 
 .portfolio-img div img {
     max-width: 260px;
     height: auto;
-    margin-bottom: 30px;
 }
 
 .portfolio-img div h4 {
-position: absolute;
-top: 70%;
-left: 50%;
-transform: translate(-50%, -50%);
-background: #4aaaa5;
-color: #fff;
-padding: 18px;
-text-align: center;
-width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4aaaa5;
+    color: #fff;
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.portfolio-img div {
+    margin: 0px 20px 20px 0px;
 }
