@@ -87,9 +87,9 @@ header {
 footer {
     margin-top: auto;
     background-color: #666;
-    color: #fff;
+    color: #ccc;
     text-align: center;
-    padding: 30px 0px 10px;
+    padding: 40px 0px 10px;
     font-size: .85em;
     border-top: 7px solid #4aaaa5;
 }
@@ -134,7 +134,6 @@ label {
 
 .portfolio-img div img {
     max-width: 260px;
-    height: auto;
 }
 
 .portfolio-img div h4 {
